@@ -142,3 +142,60 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.activity-card {
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        padding: 12px;
+        margin: 10px 0;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        background: #fff;
+      }
+      .activity-card h4 {
+        margin: 0 0 6px 0;
+        font-size: 1.1rem;
+      }
+      .participants {
+        margin-top: 10px;
+      }
+      .participants h5 {
+        margin: 0 0 6px 0;
+        font-size: 0.95rem;
+        color: #333;
+      }
+      .participants ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+        color: #444;
+        font-size: 0.95rem;
+      }
+      .participants li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 6px;
+        padding: 6px 0;
+      }
+      .participants span {
+        flex: 1;
+      }
+      .delete-participant-btn {
+        background-color: #ff6b6b;
+        color: white;
+        border: none;
+        padding: 4px 8px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 14px;
+        margin-left: 10px;
+        transition: background-color 0.2s;
+      }
+      .delete-participant-btn:hover {
+        background-color: #ff5252;
+      }
+      .participants .none {
+        font-style: italic;
+        color: #777;
+        margin: 0;
+      }
